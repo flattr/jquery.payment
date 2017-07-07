@@ -391,7 +391,7 @@ restrictExpiry = (e) ->
   value = $target.val() + digit
   value = value.replace(/\D/g, '')
 
-  return false if value.length > 6
+  return false if value.length > 4
 
 restrictCVC = (e) ->
   $target = $(e.currentTarget)
